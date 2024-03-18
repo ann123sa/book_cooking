@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(204, 50, 50);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+    width: 100%;
+}
+
+img.img{
+    display: block;
+    width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.section{
+    padding: 0 50px;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    padding: 0 50px;
+    color: white;
+    margin: 0 0 30px ;
+}
+
+.logo{
+    color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0 4px 0 0;
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    color: rgb(160, 39, 39);
+    padding: 0 3px;
+    border-radius: 10px;
+    margin: 2px;
+}
+.top-menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.top-menu li.add a{
+    padding: 8px;
+    background-color: rgb(236, 78, 78);
+    border-radius: 15px;
+    
+}
+.top-menu li.profile a{
+    padding: 3px;
+}
+.top-menu li.add a:hover{
+    background-color: white;
+    color: gray;
+    border-radius: 15px;
+}
+.top-menu li.profile img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+}
+.left_menu {
+    color: black;
+    border-right: 1px solid grey;
+    display: flex;
+    float:left; 
+    width:15%;
+    height: 200vh;
+    margin-left:1%;
+    }
+    
+    .menu1 span{
+        font-weight: bold;
+        font-size:22px;
+    }
+    .menu1{
+        list-style-type:none;
+        font-size:18px; 
+    }
+    
+.mainmenu1:hover{
+    background: rgb(226, 226, 226);
+    border-left: 5px solid brown;
+}
+.mainmenu1 {
+    display:block; 
+    text-decoration:none; 
+    width:250px; 
+    height:35px; 
+    line-height:45px;
+}
+.right {
+    font-size:20px; 
+    font-weight: bold;
+    color: black;
+    display: flex;
+    float:right; 
+    width:82%
+    }
+.text{
+    width: 200px;
+}
+    .wrapper{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 1em;
+    }
+    .wrapper > div{
+        padding: 1em;
+    }
+    .wrapper > div img{
+    margin: auto auto;
+    width: 100%;
+    height: auto;
+    
+    }
+    .wrapper > div h1{
+        font-size: 20px;
+        }
+        .wrapper > div p{
+            font-size: 12px;
+            opacity: 0.5;
+            margin: 5px 0px 0px 0px;
+            }
+
+footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}

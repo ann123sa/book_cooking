@@ -1,0 +1,49 @@
+.title_dish {
+    font-size:25px; 
+    color: black;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    padding-bottom: 10px;
+    float:right; 
+    width:82%;
+}
+.information_dish{
+    margin-top: 100px;
+    font-size:25px; 
+    color: black;
+    display: grid;
+    margin: 5px 5px 5px 5px;
+    padding-bottom: 10px;
+    float:right; 
+    width:82%;
+}
+.information_dish img{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+.information_dish p{
+    margin-top:20px;
+    font-size:20px; 
+    color: black;
+    margin: 5px 5px 5px 5px;
+    padding-bottom: 10px;
+}
+.time{
+    margin-top:20px;
+    opacity: 0.5;
+    font-size:15px;
+    color: black;
+    margin: 5px 5px 5px 5px;
+}
+.izmena{
+    margin-top:20px;
+    font-size:18px; 
+    color: black;
+    margin: 5px 5px 5px 5px;
+}
+.izmena a{
+    margin-top:20px;
+    color:blue; 
+    padding-bottom: 10px;
+}

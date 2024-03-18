@@ -1,0 +1,32 @@
+.image{
+    background-image:url(/img/index.jpeg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+    background-size: cover;
+    margin-top: -30px;
+    text-align: center;
+}
+.image .text_img{
+    filter: brightness(300%);
+    color: white;
+}
+header{
+background-color: rgb(255, 255, 255);
+}
+.top-menu li.add a{
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    color: black;
+}
+.top-menu li.profile a{
+    padding: 3px;
+    color: black;
+}
+
+
+body{
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}

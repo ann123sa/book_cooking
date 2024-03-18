@@ -1,0 +1,67 @@
+body {
+    background-blend-mode: multiply;
+    color: #333;
+    background: url(../img/fon.jpeg) no-repeat center center fixed;
+    background-color: #f8f8f9;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    text-shadow: rgb(77, 77, 77) 1px 0 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+.buttons button{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #8c0f0f;
+    font-size: 20px;
+}
+.buttons button:hover {
+    box-shadow: 0 0 0 2px white
+}
+.add{
+    display: flex;
+    justify-content: center;
+}
+.add_user {
+ margin-bottom: 10px;
+ margin-left: 500px;
+}
+.add_categories{
+    margin-bottom: 10px;
+    margin-left: 160px;
+}
+.add_recipes{
+    margin-bottom: 10px;
+    margin-left: 1610px;
+}
+table {
+    display: flex;
+    justify-content: center;
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse; 
+}
+table th {
+    background-color:white;
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+table td {
+    background-color:white;
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
